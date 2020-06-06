@@ -6,8 +6,8 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.vim: vim
 
 - create:
     - ~/downloads
