@@ -170,5 +170,8 @@ Plug 'tpope/vim-rhubarb'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/tComment'
 
+" Autocompletion and suggestions
+Plug 'Valloric/YouCompleteMe'
+
 " Initialize plugin system
 call plug#end()
