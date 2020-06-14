@@ -155,9 +155,13 @@ if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
 endif
 
+" Shortcut to compile cpp files
+autocmd filetype cpp nnoremap <C-c> :w <bar> !clear && g++ -std=gnu++14 -O2 % -o %:p:h/%:t:r.exe && ./%:r.exe<CR>
+
 " Plugins
 call plug#begin('~/.vim/plugged')
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'slim-template/vim-slim'
