@@ -1,0 +1,9 @@
+.idea/
+.vscode/
+*.iml
+
+
+.history/
+
+# *env stuff
+.node-version
