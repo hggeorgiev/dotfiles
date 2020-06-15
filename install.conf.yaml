@@ -6,8 +6,15 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.vimrc: vimrc
-    ~/.vim: vim
+
+    # git
+    ~/.gitignore: gitignore
+
+    #zsh
+    ~/.zshrc: zshrc
+
+    #vim
+    ~/.vimrc: vim/vimrc
 
 - create:
     - ~/downloads
