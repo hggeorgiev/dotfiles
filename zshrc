@@ -14,7 +14,11 @@ export UPDATE_ZSH_DAYS=25
 COMPLETION_WAITING_DOTS="true"
 
 # Plugins
-plugins=(git)
+plugins=(
+    git
+    brew 
+    colored-man-pages
+)
 
 # ZSH Src
 source $ZSH/oh-my-zsh.sh
@@ -38,3 +42,6 @@ export NVM_DIR="$HOME/.nvm"
 # Yarn Path
 export PATH="$HOME/.yarn/bin:$PATH"
 
+
+# Homebrew
+eval $(/opt/homebrew/bin/brew shellenv)
