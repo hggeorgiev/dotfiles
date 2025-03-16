@@ -1,0 +1,19 @@
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="risto"
+
+CASE_SENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
+
+zstyle ':omz:update' frequency 31
+
+ENABLE_CORRECTION="true"
+COMPLETION_WAITING_DOTS="true"
+
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+
