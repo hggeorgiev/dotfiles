@@ -14,6 +14,9 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(git)
 
+#set completion dump directory 
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+
 source $ZSH/oh-my-zsh.sh
 
 
