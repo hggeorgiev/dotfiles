@@ -19,4 +19,5 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 
 source $ZSH/oh-my-zsh.sh
 
-
+# aliases
+alias lsh='ls -ad .*' #show hidden files and dirs
