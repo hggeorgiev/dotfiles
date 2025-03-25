@@ -15,7 +15,7 @@ sudo apt -qq update && sudo apt -y -qq upgrade
 agi curl # not installed on Ubuntu 20.04 LTS
 agi zsh # better shell than bash
 agi tree # `exa --tree --level=2` has colors and can show meta-data with --long
-
+agi neovim # better vim than the original vim
 
 # packages installed via cargo:
 if [[ "$*" == *cargo* ]]; then # a lot failed or was too slow on rpi3
