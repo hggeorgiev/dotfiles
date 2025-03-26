@@ -1,0 +1,9 @@
+[user]
+  name = Hristo Georgiev
+	email = contact@hristo-georgiev.com 
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
+[pull]
+  rebase = false

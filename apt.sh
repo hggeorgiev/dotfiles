@@ -11,16 +11,16 @@ agi() {
 }
 sudo apt -qq update && sudo apt -y -qq upgrade
 
-
-agi curl # not installed on Ubuntu 20.04 LTS
-agi zsh # better shell than bash
-agi tree # `exa --tree --level=2` has colors and can show meta-data with --long
+agi curl   # not installed on Ubuntu 20.04 LTS
+agi zsh    # better shell than bash
+agi tree   # `exa --tree --level=2` has colors and can show meta-data with --long
 agi neovim # better vim than the original vim
+agi kitty  # faster terminal
 
 # packages installed via cargo:
 if [[ "$*" == *cargo* ]]; then # a lot failed or was too slow on rpi3
-   agi cargo
-   cargo install --locked zellij
+  agi cargo
+  cargo install --locked zellij
 fi
 
 # maths
@@ -31,4 +31,3 @@ if [[ "$*" == *latex* ]]; then
   agi latexmk
   agi python3-pygments
 fi
-
