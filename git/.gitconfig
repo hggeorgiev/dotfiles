@@ -6,4 +6,6 @@
 [merge]
 	conflictstyle = diff3
 [pull]
-  rebase = false
+  rebase = conflictstyle
+[core]
+  editor = nvim
