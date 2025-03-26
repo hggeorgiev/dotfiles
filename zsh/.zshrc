@@ -21,3 +21,6 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias lsh='ls -ad .*' #show hidden files and dirs
+alias vim='nvim' # uses nvim instead of vim
+alias vi='nvim'
+alias oldvim='vim'
