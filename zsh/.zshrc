@@ -1,14 +1,7 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-source "$HOME/.helsanarc"
-export developerSetupPath=$HOME/developer-setup/
-### Adding Java Tool Options to support Helsana trusted root cas
-###
-export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=/Users/hk3tr/.ssl-java/truststore.p12 -Djavax.net.ssl.trustStorePassword=changeme -Djavax.net.ssl.trustStoreType=PKCS12 -Dfile.encoding=UTF-8"
-. "$HOME/.cargo/env"
- export NVM_DIR=~/.nvm
- [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
+eval "$(zellij setup --generate-auto-start zsh)"
 export ZSH="$HOME/.oh-my-zsh"
+
 ZSH_THEME="risto"
 
 CASE_SENSITIVE="true"
@@ -28,6 +21,3 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias lsh='ls -ad .*' #show hidden files and dirs
-alias vim='nvim' # uses nvim instead of vim
-alias vi='nvim'
-alias oldvim='vim'
