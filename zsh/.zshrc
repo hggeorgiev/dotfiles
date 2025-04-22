@@ -5,6 +5,8 @@ export developerSetupPath=$HOME/developer-setup/
 ###
 export JAVA_TOOL_OPTIONS="-Djavax.net.ssl.trustStore=/Users/hk3tr/.ssl-java/truststore.p12 -Djavax.net.ssl.trustStorePassword=changeme -Djavax.net.ssl.trustStoreType=PKCS12 -Dfile.encoding=UTF-8"
 . "$HOME/.cargo/env"
+ export NVM_DIR=~/.nvm
+ [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="risto"
