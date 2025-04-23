@@ -1,7 +1,7 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 eval "$(zellij setup --generate-auto-start zsh)"
 export ZSH="$HOME/.oh-my-zsh"
-
+. "$HOME"/.cargo/env
 ZSH_THEME="risto"
 
 CASE_SENSITIVE="true"

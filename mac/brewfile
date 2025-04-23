@@ -1,0 +1,35 @@
+# Binaries
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'gh'
+brew 'git'
+brew 'grep'
+brew 'jq' # Used for spatie/visit
+
+# Spatie Medialibrary
+brew 'jpegoptim'
+brew 'optipng'
+brew 'pngquant'
+brew 'svgo'
+brew 'gifsicle'
+
+# Apps
+cask '1password'
+brew '1password-cli'
+cask 'docker'
+cask 'brave-browser'
+cask 'github'
+cask 'herd'
+cask 'httpie'
+cask 'imageoptim'
+cask 'loom'
+cask 'pastebot'
+cask 'reflex'
+cask 'screen-studio'
+cask 'slack'
+cask 'tableplus'
+cask 'telegram-desktop'
+cask 'the-unarchiver'
+cask 'transmit'
+cask 'zoom'
+
+
