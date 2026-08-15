@@ -1,5 +1,4 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-eval "$(zellij setup --generate-auto-start zsh)"
 export ZSH="$HOME/.oh-my-zsh"
 . "$HOME"/.cargo/env
 ZSH_THEME="risto"
@@ -21,3 +20,13 @@ source $ZSH/oh-my-zsh.sh
 
 # aliases
 alias lsh='ls -ad .*' #show hidden files and dirs
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# opencode
+export PATH=/Users/hgeorgiev/.opencode/bin:$PATH
+
+# export path
+export PATH="$HOME/.local/bin:$PATH"

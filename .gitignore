@@ -5,5 +5,7 @@
 
 .history/
 
+identities/
+
 # *env stuff
 .node-version
