@@ -1,20 +1,20 @@
 [user]
-  name = Hristo Georgiev
-	email = contact@hristo-georgiev.com 
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBEvi98jk3oYS+0LAaONBSzIKh6+5u80Lb60JG42zYU
+        name = Hristo Georgiev
+        email = contact@hristo-georgiev.com 
+        signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILBEvi98jk3oYS+0LAaONBSzIKh6+5u80Lb60JG42zYU
 [color]
-	ui = auto
+        ui = auto
 [merge]
-	conflictstyle = diff3
+        conflictstyle = diff3
 [pull]
-  rebase = interactive
+        rebase = interactive
 [core]
-  editor = nvim
-	excludesfile = /Users/hgeorgiev/.gitignore_global
-	autocrlf = input
+        editor = vim
+        excludesfile = /Users/hgeorgiev/.gitignore_global
+        autocrlf = input
 [gpg]
-	format = ssh
+        format = ssh
 [gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+        program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
 [commit]
-	gpgsign = true
+        gpgsign = true
