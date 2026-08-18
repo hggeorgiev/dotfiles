@@ -32,4 +32,8 @@ cask 'the-unarchiver'
 cask 'transmit'
 cask 'zoom'
 
+# Tools
+cask 'tpm'
+
+
 
